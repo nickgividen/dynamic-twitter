@@ -54,7 +54,7 @@ var users = {
         timestamp: "2/09/2021 12:11:51",
       },
       {
-        text: "I'm so lonely...",
+        text: "♫ Aaaaall Byyyyy MyyyyyySelf... ♫",
         timestamp: "5/25/2021 12:11:51",
       },
     ],
