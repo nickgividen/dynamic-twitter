@@ -144,7 +144,9 @@ user.tweets.forEach((tweet) => {
     <div class="tweet-user-info"
       <h3 class="tweet-displayname">${user.displayName} </h3>
       <i class="fas fa-check-circle"></i> 
-      <span class="sub-text tweet-username">${user.userName} ${tweet.timestamp}</span>   
+      <span class="sub-text tweet-username">${user.userName} ${new Date(
+    tweet.timestamp
+  ).toLocaleDateString()}</span>   
     </div>
     <p class="tweet-text">${tweet.text}</p>
   </div>
