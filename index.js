@@ -67,7 +67,7 @@ var user = users.user1;
 function goToElon() {
   var usp = new URLSearchParams();
   usp.set("user", "user1");
-  var url = location.origin;
+  var url = location.pathname;
   url = `${url}?${usp.toString()}`;
   location.href = url;
 }
@@ -75,7 +75,7 @@ function goToElon() {
 function goToBill() {
   var usp = new URLSearchParams();
   usp.set("user", "user2");
-  var url = location.origin;
+  var url = location.pathname;
   url = `${url}?${usp.toString()}`;
   location.href = url;
 }
