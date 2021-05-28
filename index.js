@@ -108,7 +108,6 @@ content.appendChild(header);
 
 // round followers to nearest million
 var followerCount = Math.round(user.followerCount * 0.000001) + "M";
-console.log(followerCount);
 
 // cover content
 var cover = document.getElementById("cover-container");
