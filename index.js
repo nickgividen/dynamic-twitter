@@ -106,6 +106,10 @@ header.innerHTML = `
         `;
 content.appendChild(header);
 
+// round followers to nearest million
+var followerCount = Math.round(user.followerCount * 0.000001) + "M";
+console.log(followerCount);
+
 // cover content
 var cover = document.getElementById("cover-container");
 cover.innerHTML = `
@@ -120,7 +124,7 @@ cover.innerHTML = `
             <h1 class="user-info-name">${user.displayName} <i class="fas fa-check-circle"></i></h1> 
             <p class="sub-text user-info-username">${user.userName}</p>
             <p class="sub-text info"><i class="far fa-calendar-alt sub-text"></i> Joined ${user.joinedDate}</p>
-            <p class="sub-text follow-count info"><span class="follow-num">${user.followingCount}</span> Following <span class="follow-num followers">56M</span> Followers</p>
+            <p class="sub-text follow-count info"><span class="follow-num">${user.followingCount}</span> Following <span class="follow-num followers">${followerCount}</span> Followers</p>
         </div>
         
         <div class="tabs-container">
