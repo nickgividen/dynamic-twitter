@@ -12,15 +12,15 @@ var users = {
     coverPhotoURL: "assets/elonmusk-cover.jpeg",
     tweets: [
       {
-        text: "I admit to judging books by their cover",
+        text: "How much is that doge in the window?",
         timestamp: "2/10/2021 00:01:20",
       },
       {
-        text: "Starship to the moon",
+        text: "Make it pointier",
         timestamp: "2/09/2021 18:37:12",
       },
       {
-        text: "Out on launch pad, engine swap underway",
+        text: "I'd rather be Boring",
         timestamp: "2/09/2021 12:11:51",
       },
       {
@@ -46,11 +46,11 @@ var users = {
         timestamp: "2/10/2021 00:01:20",
       },
       {
-        text: "Should I start tweeting memes? Let me know in a comment.",
+        text: "Haven't seen that little paper clip guy in a while...",
         timestamp: "2/09/2021 18:37:12",
       },
       {
-        text: "In 2020, I read a book every hour.",
+        text: "Ain't no party like a Microsoft Excel party",
         timestamp: "2/09/2021 12:11:51",
       },
       {
