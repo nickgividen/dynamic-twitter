@@ -112,9 +112,8 @@ var followerCount = Math.round(user.followerCount * 0.000001) + "M";
 // cover content
 var cover = document.getElementById("cover-container");
 cover.innerHTML = `
-        <div class="cover" style="background-image: url(${user.coverPhotoURL})">
-            <img src=${user.avatarURL} class="avatar">
-        </div>
+        <img src=${user.coverPhotoURL} class="cover-photo">
+        <img src=${user.avatarURL} class="avatar">
         <div class="follow-container">
             <a href="#" class="follow-btn">follow</a>
         </div>
@@ -128,7 +127,7 @@ cover.innerHTML = `
         
         <div class="tabs-container">
             <div class="tab sub-text tab-active">Tweets</div>
-            <div class="tab sub-text">Tweets & replies</div>
+            <div class="tab sub-text" id="tweets-and-replies">Tweets & replies</div>
             <div class="tab sub-text">Media</div>
             <div class="tab sub-text">Likes</div>
         </div>
